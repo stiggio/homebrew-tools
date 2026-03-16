@@ -3,7 +3,7 @@ cask "stigg" do
   name "stigg"
   desc "The official CLI for Stigg."
   homepage "https://stigg.io"
-  version "0.5.0"
+  version "0.6.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "stigg" do
   on_macos do
     on_intel do
       url "https://github.com/stiggio/stigg-cli/releases/download/v#{version}/stigg_#{version}_macos_amd64.zip"
-      sha256 "b83744ea521b480ed1f3a319c636c5b2f10e9c3fd613f37c7f9065f92dc6717e"
+      sha256 "6c79c9a76742b64bc53484ab8644f154d8d7bb90af08661205b210a02117b7f2"
     end
     on_arm do
       url "https://github.com/stiggio/stigg-cli/releases/download/v#{version}/stigg_#{version}_macos_arm64.zip"
-      sha256 "043ad9a6cdbee0e071d7b2c484140b097f745663fe6f8ca455dca1bbed862175"
+      sha256 "16a08db8c8187cf8adfa985b80914d63873baab0fab5b80e8c81275d51210353"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/stiggio/stigg-cli/releases/download/v#{version}/stigg_#{version}_linux_amd64.tar.gz"
-      sha256 "daa81e552bfddda9e28d76656bc1af151d2fe721c3771ca891847676736ea748"
+      sha256 "c0a78e1c4e613f9a21b1e08a71b32e0a0b0aeb17a3e1f55970da1966d1e7daf7"
     end
     on_arm do
       url "https://github.com/stiggio/stigg-cli/releases/download/v#{version}/stigg_#{version}_linux_arm64.tar.gz"
-      sha256 "dd7e875097c8c1adae8bdfb94d0f1d9ae9c25eaeb48ea6758e3c0822f3153ed3"
+      sha256 "7c72a02b698be1460c76299a560f70912854eac549ee25a313b6b4d742b7dec8"
     end
   end
 
